@@ -97,7 +97,7 @@ section.name-section.grey-bg {
     color: #fff;
 }
 
-section.name-section.workexp {
+section.name-section.workexpall {
     background-color: #fff;
     padding: 45px 85px 85px 85px;
 }
@@ -136,7 +136,7 @@ section.name-section.workexp {
     height: 70px;
 }
 
-.gpp1 {
+.workexp {
     background-color: #1d1d24;
     width: 400px;
     height: 150px;
@@ -146,37 +146,37 @@ section.name-section.workexp {
     top: calc(50% - 35px);
 }
 
-.gpp1::after {
+.workexp::after {
     content: ''; 
     position: absolute;
     top: 15px;
     border: 20px solid transparent;
 }
 
-.gpp1.right-side {
+.workexp.right-side {
     left: calc(100% + 45px);
 }
 
-.gpp1.right-side h2{
+.workexp.right-side h2{
     padding: 15px 100px 15px 15px;
     color: #fff
 }
 
-.gpp1.right-side:after {
+.workexp.right-side:after {
     left: -60px;
     border-right: 40px solid black;
 }
 
-.gpp1.left-side {
+.workexp.left-side {
     right: calc(100% + 45px);
 }
 
-.gpp1.left-side h2 {
+.workexp.left-side h2 {
     padding: 15px 100px 15px 15px;
     color: #fff
 }
 
-.gpp1.left-side:after {
+.workexp.left-side:after {
     right: -60px;
     border-left: 40px solid black;
 }
