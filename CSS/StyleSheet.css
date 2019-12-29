@@ -82,7 +82,7 @@ section.name-section.grey-bg {
 
 .section-header {
     font-size: 25px;
-    margin-block-end: 100px;
+    margin-bottom: 100px;
 }
 
 .section-header:after {
@@ -288,7 +288,7 @@ section.name-section.contacts {
 
 .contacts h2 {
     font-size: 25px;
-    margin-block-end: 10px;
+    margin-bottom: 10px;
 }
 
 .adresgb {
