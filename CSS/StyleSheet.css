@@ -99,12 +99,12 @@ section.name-section.grey-bg {
 
 section.name-section.workexpall {
     background-color: #fff;
-    padding: 45px 85px 85px 85px;
+    padding: 45px 85px;
 }
 
-.d1 {
+.live-stage {
     margin: 0px auto;
-    position:relative;
+    position: relative;
     width: 36px; 
     height: 36px;
     background: #fff;
@@ -113,18 +113,18 @@ section.name-section.workexpall {
     margin-bottom: 0px;
 }
 
-.d1:after {
+.live-stage:after {
     content: ''; 
-    position:absolute;
-    top:9px;
-    left:9px;
+    position: absolute;
+    top: 9px;
+    left: 9px;
     width: 18px; 
     height: 18px;
     background: #fb6470;
     border-radius: 50%;
 }
 
-.line1{
+.live-way {
     border: 1px solid black;
     height: 100px;
     width: 0px;
@@ -132,7 +132,7 @@ section.name-section.workexpall {
     left: 50%;
 }
 
-.line1.line2 {
+.live-way.short {
     height: 70px;
 }
 
@@ -183,7 +183,7 @@ section.name-section.workexpall {
 
 section.name-section.education {
     background-color: #fff;
-    padding: 85px 85px 150px 85px;
+    padding: 85px 85px 150px;
 }
 
 section.name-section.skills {
@@ -206,7 +206,7 @@ section.name-section.skills {
 }
 
 .skills h2 {
-    color:#fff;
+    color: #fff;
 }
 
 .linehor {
@@ -242,12 +242,12 @@ section.name-section.skills {
      border-radius: 50%;
  }
 
-section.name-section.contacts {
+section.contacts-inner-wrapper {
     background-color: #fff;
     padding: 45px 85px;
 }
 
-.conta {
+.leave-message-block {
     display: flex;
     justify-content: space-between;
 }
@@ -261,7 +261,7 @@ section.name-section.contacts {
     padding-bottom: 20px;
 }
 
-.hire-btnn {
+.hire-me {
     font-size: 18px;
     background-color: #fb6470;
     color: #fff;
@@ -291,7 +291,7 @@ section.name-section.contacts {
     margin-bottom: 10px;
 }
 
-.adresgb {
+.adres-block {
     display: flex;
 }
 
